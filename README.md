@@ -1,4 +1,6 @@
-### The AirBnB Clone Project
+The AirBnB Clone Project
+================
+
 ![AirBnB clone](AirBnB.jpg)
 
 The goal of the project is to deploy on my server a simple copy of the [AirBnB website](https://www.airbnb.com/).
@@ -9,6 +11,7 @@ The project will be a complete web application composed by:
 - An API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them)
 
 ## The Command Interpreter
+
 It’s exactly the same as Shell but limited to a specific use-case. In our case, we want to be able to manage the objects of our project:
 	- Create a new object (ex: a new User or a new Place)
 	- Retrieve an object from a file, a database etc…
