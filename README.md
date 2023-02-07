@@ -1,5 +1,4 @@
 # **The AirBnB Clone Project**
-================
 
 ![AirBnB clone](AirBnB.jpg)
 
