@@ -1,4 +1,4 @@
-##Air# The AirBnB Clone Project
+### The AirBnB Clone Project
 ![AirBnB clone](AirBnB.jpg)
 
 The goal of the project is to deploy on my server a simple copy of the [AirBnB website](https://www.airbnb.com/).
