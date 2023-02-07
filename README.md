@@ -1,4 +1,4 @@
-The AirBnB Clone Project
+# **The AirBnB Clone Project**
 ================
 
 ![AirBnB clone](AirBnB.jpg)
@@ -10,9 +10,9 @@ The project will be a complete web application composed by:
 - A database or files that store data (data = objects)
 - An API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them)
 
-## The Command Interpreter
+## **The Command Interpreter**
 
-	It’s exactly the same as Shell but limited to a specific use-case. In our case, we want to be able to manage the objects of our project:
+It’s exactly the same as Shell but limited to a specific use-case. In our case, we want to be able to manage the objects of our project:
 - Create a new object (ex: a new User or a new Place)
 - Retrieve an object from a file, a database etc…
 - Do operations on objects (count, compute stats, etc…)
