@@ -9,7 +9,6 @@ from models.place import Place
 from models.amenity import Amenity
 from models.review import Review
 
-
 class FileStorage:
     """Represent an abstracted storage engine.
     Attributes:
