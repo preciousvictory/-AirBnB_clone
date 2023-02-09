@@ -11,7 +11,8 @@ from models.user import User
 class HBNBCommand(cmd.Cmd):
     """
     Module defines the Cmd class
-    Creating a command line interpreter is done by sub-classing the cmd.Cmd class.
+    Creating a command line interpreter is done by sub-classing the
+    cmd.Cmd class.
     """
     prompt = '(hbnb) '
     classes = ['BaseModel', 'User']
@@ -54,11 +55,12 @@ class HBNBCommand(cmd.Cmd):
 
     def do_show(self, args):
         """
-        Prints the string representation of an instance based on the class name and id. 
+        Prints the string representation of an instance based on the
+        class name and id.
         Ex: $ show BaseModel 1234-1234-1234.
         """
         args = args.split()
-        if len(args) < 1  or len(args) > 3:
+        if len(args) < 1 or len(args) > 3:
             print("** class name missing **")
             return
         elif len(args) != 2:
@@ -78,11 +80,12 @@ class HBNBCommand(cmd.Cmd):
 
     def do_destroy(self, args):
         """
-        Deletes an instance based on the class name and id (save the change into the JSON file).
+        Deletes an instance based on the class name and id
+        (save the change into the JSON file).
         Ex: $ destroy BaseModel 1234-1234-1234.
         """
         args = args.split()
-        if len(args) < 1  or len(args) > 3:
+        if len(args) < 1 or len(args) > 3:
             print("** class name missing **")
             return
         elif len(args) != 2:
@@ -101,7 +104,8 @@ class HBNBCommand(cmd.Cmd):
         print("** no instance found **")
 
     def do_all(self, args):
-        """Prints all string representation of all instances based or not on the class name.
+        """Prints all string representation of all instances based or not on
+        the class name.
         Ex: $ all BaseModel or $ all
         """
         args = args.split()
@@ -120,8 +124,8 @@ class HBNBCommand(cmd.Cmd):
 
     def do_update(self, args):
         """
-        Updates an instance based on the class name and id by adding or updating attribute
-        (save the change into the JSON file)
+        Updates an instance based on the class name and id by adding or
+        updating attribute (save the change into the JSON file)
         Ex: $ update BaseModel 1234-1234-1234 email "aibnb@mail.com".
         """
         args = args.split()
@@ -162,6 +166,7 @@ class HBNBCommand(cmd.Cmd):
         for obj_id in all_objs.values():
             obj = str(obj_id)
             print(obj)
+
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
