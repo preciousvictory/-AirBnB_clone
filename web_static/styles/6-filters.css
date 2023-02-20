@@ -17,13 +17,14 @@
     text-align: center;
     float: right;
     margin-top: 10px;
+    margin-right: 30px;
 }
 
 .container .button:hover {
     opacity: 90%;
 }
 
-.locations, .amenities{
+.filters .locations, .filters .amenities{
     height: 100%;
     width: 25%;
     float: left;
@@ -56,24 +57,23 @@
 }
 
 div.locations:hover .one{
-    display: block;
-    
+    display: block;    
 }
 
 div.amenities:hover .two{
     display: block;
 }
 
-h2 {
+.filters h2 {
     padding-left: 10px;
 
 }
 
-h3 {
+.filters h3 {
     padding-left: 30px;
 }
 
-h4 {
+.filters h4 {
     padding-left: 30px;
 
 }

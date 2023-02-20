@@ -19,6 +19,7 @@
     border: 0;
     border-radius: 4px;
     text-align: center;
+    margin-right: 30px;
 }
 
 .container button:hover {
