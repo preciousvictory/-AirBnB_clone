@@ -105,3 +105,53 @@ article .amenities p {
     padding: 5px;
     margin: 0;
 }
+
+.Pet {
+    background: url(../images/icon_pets.png) no-repeat center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.amenities .a {
+    display: flex;
+    align-items: center;
+}
+
+
+.Tv {
+    background: url(../images/icon_tv.png) no-repeat center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.Wifi {
+    background: url(../images/icon_wifi.png) no-repeat center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.reviews {
+    margin-top: 40px;
+}
+
+article .reviews h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD ;
+    margin: 0;
+    padding: 5px 0;
+    text-align: left;
+}
+
+article .reviews h3 {
+    font-size: 14px;
+}
+
+article .reviews p {
+    font-size: 12px;
+}
+
+article .reviews ul {
+    padding: 0;
+}
